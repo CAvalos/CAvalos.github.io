@@ -1,19 +1,8 @@
 body{
-	Background: Pink;
+	Background: Black;
 	font-family: "Source Code Pro";
 	font-size: 14pt;
-	font-weight: light 300;	
-}
-
-h1{
-	color:white;
-}
-
-h2{
-	color:black;
-}
-
-p{
-	color: red;
+	font-weight: light 300;
+	color: White;	
 }
 
