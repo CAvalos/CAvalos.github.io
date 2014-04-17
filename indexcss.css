@@ -2,6 +2,18 @@ body{
 	Background: Pink;
 	font-family: "Source Code Pro";
 	font-size: 14pt;
-	font0weight: light 300;
+	font-weight: light 300;	
+}
+
+h1{
+	color:white;
+}
+
+h2{
+	color:black;
+}
+
+p{
 	color: red;
 }
+
