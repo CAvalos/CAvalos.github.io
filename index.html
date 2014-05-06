@@ -7,10 +7,11 @@
 		<link href='http://fonts.googleapis.com/css?family=Source+Code+Pro:300,400,700' rel='stylesheet' type='text/css'>
 
 	</head>
-
+	<body>
 <h1> The life of Christian Avalos </h1>
 
-<h3 id="warning"> WARNING:</h3>
+<h3> WARNING:</h3>
+<p id="warning"> </p>
 <input type="button" onclick="warned()" value="Disclosure" />
 
 <p> Hello my name is Christian. As you can see, I am fairly new to computer science. </p>
@@ -31,5 +32,13 @@
 
 
 <p id="finalconclusion"> you will now regret wasting 2 minutes of your life on this page </p>
-
+<input type="button" onclick="conclude()" value="Final Thoughts" />
+			
 			<script type="text/javascript">
+				function warned(){
+					$("#warning").html("Reading this is potentially dangerous, this will be the biggest waste of time possible.")
+					
+				}
+				
+			</script>
+	</body>
