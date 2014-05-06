@@ -14,12 +14,10 @@
 <p id="warning"> </p>
 <input type="button" onclick="warned()" value="Disclosure" />
 
-<p> Hello my name is Christian. As you can see, I am fairly new to computer science. </p>
 <h2> About me: </h2>
 <p> Ill keep this short because my life is pretty boring. My name is Christian Avalos and I am a Senior at Saint Mary's College Highschool
 <p> I am 100% Mexican and was born in Lake Tahoe. My favorite thing to do is laugh. Without laughter, my life would be even more boring than it already is.</p>
 </p>
-
 
 <h2> Hobbies: </h2>
 <ul>
@@ -27,11 +25,11 @@
 <li> Playing Volleyball </li>
 <li> Listening to Music </li>
 <li> Eating </li>
-<li> Watching Tv</li>
+<li> Watching Tv </li>
 </ul>
 
 
-<p id="finalconclusion"> you will now regret wasting 2 minutes of your life on this page </p>
+<p id="finalconclusion"></p>
 <input type="button" onclick="conclude()" value="Final Thoughts" />
 			
 			<script type="text/javascript">
@@ -39,6 +37,9 @@
 					$("#warning").html("Reading this is potentially dangerous, this will be the biggest waste of time possible.")
 					
 				}
-				
+				function conclude(){
+					$("#finalconclusion").html(" you will now regret wasting your precious time on this page ");
+					$("#finalconclusion").fadeIn()
+				}
 			</script>
 	</body>
