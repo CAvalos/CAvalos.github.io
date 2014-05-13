@@ -4,6 +4,8 @@ body{
 	font-size: 12pt;
 	font-weight: light 300;
 	color: White;
+	margin: 2em;
+	border: double;
 
 }
 .myButton {
