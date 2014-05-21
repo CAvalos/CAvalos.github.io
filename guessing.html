@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang=:"en">
+	<head>
+		<title> Guessing Game </title>
+		<meta charset="utf-8" />
+		<link rel="stylesheet" type="text/css" href="">
+		<script type="text/javascript"></script>
+	</head>
+	<body>
+		<script>
+			var a = prompt("Enter a number between 1-10");
+			var b = Math.floor((Math.random()*10)+1);
+			for ( var c = 0, c < 10, c++) {
+			if (a < b){
+			alert("Too Low");
+			a = prompt("Try Again");
+			}
+			else if ( a > b ) {
+			alert("Too High");
+			a = prompt("Try Again");
+			}
+			else if ( a==b ){
+			alert("You Win");
+			}
+		}
+		</script>
+	</body>
+
